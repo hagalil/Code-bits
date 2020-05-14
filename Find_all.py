@@ -8,6 +8,8 @@ def find_all(string, x):
             index_list.append(index)
             start = index+1
         else:
-            break
-    return index_list
+            if start==0:
+                return -1
+            else:
+                return index_list
 print (find_all("atra ajta", "a"))
