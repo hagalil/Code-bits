@@ -12,4 +12,6 @@ def find_all(string, x):
                 return -1
             else:
                 return index_list
-print (find_all("atra ajta", "a"))
+if __name__ == '__main__':
+    print (find_all("blablabla", "a"))
+    print(find_all("blablabla", "x"))
